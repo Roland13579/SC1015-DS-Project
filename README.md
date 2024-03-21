@@ -1,4 +1,4 @@
-# SC1015-DS-Project
+# SC1015-DS-Project 
 
 Numeric regression prediction:
 Predicting Future Income based on University and Facaulty
