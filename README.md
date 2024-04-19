@@ -13,16 +13,15 @@ Members:
 ---
 ### Description:
 This repository contains the Jupyter Notebooks, datasets, video presentation and the source materials used for our SC1015 (Introduction to Data Science and A.I.) Project.
-
 This ReadMe only consists of a brief outline of our project.
 ---
 ### Table of Contents:
 1. [Problem Formulation](#1-Problem-Formlation)
 2. [Data Preparation & Cleaning and Exploratory Data Analysis](#2-Data-Preparation-and-Cleaning)
-4. [Dimensionality Reduction](#4-Dimensionality-Reduction)
-5. [Clustering](#5-Clustering)
-6. [Data Driven Insights and Conclusion](#6-Data-Driven-Insights-and-Conclusion)
-7. [References](#7-References)
+3. [Dimensionality Reduction](#4-Dimensionality-Reduction)
+4. [Clustering](#5-Clustering)
+5. [Data Driven Insights and Conclusion](#6-Data-Driven-Insights-and-Conclusion)
+6. [References](#7-References)
 ---
 ### 1. [Problem Formulation]([https://github.com/Roland13579/SC1015-DS-Project/blob/main/SC1015%20Data%20Prep%20%26%20Cleaning%20and%20Exploratory%20Data%20Analysis.ipynb])
 
@@ -31,25 +30,18 @@ This ReadMe only consists of a brief outline of our project.
 
 
 ### 2. [Data Preparation & Cleaning and Exploratory Data Analysis](https://github.com/Roland13579/SC1015-DS-Project/blob/main/SC1015%20Data%20Prep%20%26%20Cleaning%20and%20Exploratory%20Data%20Analysis.ipynb)
-We prepared and cleaned the data for a more accurate model for machine learning later on. Then, we 
+Firstly, We prepared and cleaned the data to ensure an accurate model for machine learning later on. Then, we used Exploratory Data Analysis to identify patterns and relationships and the respectively deductions.  
 
-We performed the following:
-1. **Preliminary Feature Selection:** `8` relevant variables out of `61` were selected.
-2. **Dropping `NaN`s**: All the `NaN` values in these `8` variables were dropped. 
-3. **Splitting Dataset in Two:** The `8` variables were then split in 2 DataFrames. One with `6` variables relating to conventionality and the other with `2` relating to success. 
-4. **Encoding Categorical Variables:** The categorical variables in both the DataFrames were encoded appropriately. 
+Outline of Data Preparation & Cleaning and EDA:
+1. **Merging categories**: Categories that had the same meaning were merged. Categories that are too poorly represented in the dataset to allow significant analysis were removed.
+2. **Checking for outliers**: Check for outliers outside (Q1 - 1.5 * IQR) or (Q3 + 1.5 * IQR). 
+3. **Explored Skewness and distribution:**: Mean, Median and Mode were analysed to arrive at deductions for skewness and distribution to better understand data.
+4. **Explored Numerical data with Correlation matrix :** Numerical variables with the highest correlation to Quality of Sleep were identified, to be used for regression later. 
+5. **Explored Categorical data with Boxplot:** Categorical variables with the highest correlation to Quality of Sleep were identified, to be used for classification later
 
-Then, we explored each of our two DataFrames further using Exploratory Data Analysis to answer questions like are there any patterns we are noticing? What do our success variables look like? What about the conventionality variables? Are there any underlying relationships between them? Can we make any inferences for our question at this stage? 
+ Please refer to the Jupyter Notebook for the full Exploratory Data Analysis of our dataset.
 
-To achieve this we did the following:
-1. **Explored `ConvertedComp`**: This variable is the annual compensation in USD (a.k.a Salary). Median of around $54k was seen. A lot of outliers with high salaries were present.
-2. **Explored `JobSat`:** This variable is the job satisfaction (`0-4` scale). Most frequent ratings were `2` and `4`. The mean rating was at `2.3`.
-3. **Explored Relationships Between `JobSat` and `ConvertedComp`:** Weak correlation was seen between `JobSat` and `ConvertedComp`.
-4. **Explored Variables Related to Conventionality:** Studied which options in the `6` variables were more frequently selected by respondents. 
-
-For further findings and explanations, please refer to the Jupyter Notebook on EDA.
-
-### 4. [Dimensionality Reduction](https://github.com/ardnep/ntu-sc1015-mini-project/blob/a1e85b5ec7fdeeaca5ddf6c4cdc55a9e95874124/Part_3_Dimension_Reduction.ipynb)
+### 3. [Dimensionality Reduction](https://github.com/ardnep/ntu-sc1015-mini-project/blob/a1e85b5ec7fdeeaca5ddf6c4cdc55a9e95874124/Part_3_Dimension_Reduction.ipynb)
 Our DataFrame with `6` variables after encoding was converted to a DataFrame  with `94` which is a very high dimensional data. 
 
 This meant a few problems (curse of dimensionality):
@@ -62,7 +54,7 @@ So, **Multiple Correspondence Analysis (MCA)** was used to reduce these dimensio
 Using MCA, the dimensions were reduced from `94` columns to just `42`!
 
 
-### 5. [Clustering](https://github.com/ardnep/ntu-sc1015-mini-project/blob/56310313487023eea95119db424cf0f41322d7fa/Part_4_Clustering.ipynb)
+### 4. [Clustering](https://github.com/ardnep/ntu-sc1015-mini-project/blob/56310313487023eea95119db424cf0f41322d7fa/Part_4_Clustering.ipynb)
 
 With these `42` columns, we then performed clustering. We chose the **Hierarchical Density-Based Spatial Clustering of Applications with Noise (HDBCAN)**. 
 
@@ -82,25 +74,15 @@ In this section, we performed the following:
 
 Our final clustering resulted in a total of `3` clusters and `6206` outliers (out of `19362` total points).
 
-### 6. [Data Driven Insights and Conclusion](https://github.com/ardnep/ntu-sc1015-mini-project/blob/e79194b4337bb109729f915ef474e608031fd4f8/Part_5_Data_Driven_Insights.ipynb)
+### 5. [Data Driven Insights and Conclusion](https://github.com/ardnep/ntu-sc1015-mini-project/blob/e79194b4337bb109729f915ef474e608031fd4f8/Part_5_Data_Driven_Insights.ipynb)
 Here, we re-combined our variables related to success and the clustered variables related to conventionality to see if there are any differences between outliers and non-outliers. We performed a comparative Exploratory Data Analysis on the outliers vs. non-outliers to see if we can infer anything from the similarities and differences. 
 
 In this section, we also looked at the characteristics of the individuals in our `3` clusters using the variables related to conventionality. The findings have been presented in the Jupyter Notebook on Data Driven Insights. 
 
 Most notably, however, we found that there were no difference in the distribution of the Salary or the Job Satisfaction among Outliers and Non-outliers (Conventional individuals and non-conventional individuals). So, we concluded that unconventionality might NOT be an indicator of success. 
 
-### 7. References
-1. [https://bookdown.org/brian_nguyen0305/Multivariate_Statistical_Analysis_with_R/what-is-mca.html](https://bookdown.org/brian_nguyen0305/Multivariate_Statistical_Analysis_with_R/what-is-mca.html) 
-2. [https://pca4ds.github.io/mechanics.html](https://pca4ds.github.io/mechanics.html) 
-3. [https://support.minitab.com/en-us/minitab/18/help-and-how-to/modeling-statistics/multivariate/how-to/multiple-correspondence-analysis/interpret-the-results/all-statistics-and-graphs/](https://support.minitab.com/en-us/minitab/18/help-and-how-to/modeling-statistics/multivariate/how-to/multiple-correspondence-analysis/interpret-the-results/all-statistics-and-graphs/)
-4. [https://github.com/MaxHalford/prince](https://github.com/MaxHalford/prince)
-5. [https://www.researchgate.net/post/What-should-the-minumum-explained-variance-be-to-be-acceptable-in-factor-analysis](https://www.researchgate.net/post/What-should-the-minumum-explained-variance-be-to-be-acceptable-in-factor-analysis)
-6. [https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html](https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html)
-7. [https://www.dbs.ifi.lmu.de/~zimek/publications/SDM2014/DBCV.pdf](https://www.dbs.ifi.lmu.de/~zimek/publications/SDM2014/DBCV.pdf)
-8. [https://github.com/christopherjenness/DBCV](https://github.com/christopherjenness/DBCV)
-9. [https://www.kdnuggets.com/2020/04/dbscan-clustering-algorithm-machine-learning.html](https://www.kdnuggets.com/2020/04/dbscan-clustering-algorithm-machine-learning.html)
-10. [https://www.youtube.com/watch?v=dGsxd67IFiU](https://www.youtube.com/watch?v=dGsxd67IFiU)
-11. [https://towardsdatascience.com/tuning-with-hdbscan-149865ac2970](https://towardsdatascience.com/tuning-with-hdbscan-149865ac2970)
+### 6. References
+
 
 
 
