@@ -31,8 +31,8 @@ This ReadMe only consists of a brief outline of our project.
 **Our Question:** How do different lifestyle predictor variables affect Sleep Quality? 
 
 
-### 2. [Data Preparation and Cleaning](https://github.com/Roland13579/SC1015-DS-Project/blob/main/SC1015%20Data%20Prep%20%26%20Cleaning%20and%20Exploratory%20Data%20Analysis.ipynb)
-In this section of the project, we prepped and cleaned the dataset to help us analyze our data better and also to help us use our data for the purposes of machine learning in the later sections. 
+### 2. [Data Preparation & Cleaning and Exploratory Data Analysis](https://github.com/Roland13579/SC1015-DS-Project/blob/main/SC1015%20Data%20Prep%20%26%20Cleaning%20and%20Exploratory%20Data%20Analysis.ipynb)
+We prepared and cleaned the data for a more accurate model for machine learning later on. Then, we 
 
 We performed the following:
 1. **Preliminary Feature Selection:** `8` relevant variables out of `61` were selected.
