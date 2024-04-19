@@ -25,7 +25,7 @@ This ReadMe only consists of a brief outline of our project.
 ---
 ### 1. [Problem Formulation](https://github.com/Roland13579/SC1015-DS-Project/blob/main/SC1015%20Data%20Prep%20%26%20Cleaning%20and%20Exploratory%20Data%20Analysis.ipynb)
 
-**Our Dataset:** [Sleep Health and Lifestyle Dataset](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset)
+**Our Dataset:** [Sleep Health and Lifestyle Dataset](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset) \
 **Our Question:** How do different lifestyle predictor variables affect Sleep Quality? 
 
 
