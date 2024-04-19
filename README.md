@@ -41,6 +41,7 @@ Outline of Data Preparation & Cleaning and EDA:
  Please refer to the Jupyter Notebook for the full Exploratory Data Analysis of our dataset.
 
 ### 3. [Machine Learning for Numerical Data](https://github.com/Roland13579/SC1015-DS-Project/blob/main/Machine%20Learning%20for%20Numerical%20Datas.ipynb)
+/*
 Our DataFrame with `6` variables after encoding was converted to a DataFrame  with `94` which is a very high dimensional data. 
 
 This meant a few problems (curse of dimensionality):
@@ -51,8 +52,8 @@ This meant a few problems (curse of dimensionality):
 So, **Multiple Correspondence Analysis (MCA)** was used to reduce these dimensions. The reason we chose MCA was that the general convention with dimensionality reduction is Principal Component Analysis (PCA), however it does not work well with categorical data which is what we have. MCA works well with multiple columns of categorical data. 
 
 Using MCA, the dimensions were reduced from `94` columns to just `42`!
-
-///
+*/
+/*
 For the machine learning process on numerical data. We will conduct the analysis across 3 different models.
 
 We begin our analysis with Linear Regression, aiming to identify strong relationships between predictor variables and sleep quality. Stronger relationships are characterized by higher explained variance (R²) and lower Mean Absolute Error (MAE). Our analysis on "Daily Steps," "Sleep Duration," "Age," and "Heart Rate" reveals sleep duration as the strongest indicator, followed by heart rate, age, and daily steps.
@@ -60,7 +61,7 @@ We begin our analysis with Linear Regression, aiming to identify strong relation
 The second model, Random Forest Regression compares the actual quality of sleep to the predicted quality of sleep using multiple decision trees. Random Forest Regression demonstrates improved predictive accuracy over linear models, evidenced by its lower Mean Squared Error (MSE). Visualizing predictions through blue (training) and red (testing) dots, we observe alignment with the line of perfect prediction, indicating effectiveness in estimating actual sleep quality.
 
 Lastly, moving on to OLS Linear Regression, our aim is to create a model closely fitting the data with minimal error. Minimizing standard errors enhances coefficient estimate precision, ensuring reliable predictions. We address multicollinearity by reducing the condition number, achieved by removing variables with high p-values. Initially including all variables in the OLS model revealed a high condition number. After eliminating non-significant variables like Daily Steps, we achieved a model with lesser multicollinearity. Further refinements led to a well-fitted model with a healthy condition number and p-values. To assess the reliability of our OLS regression model, we compare the training Mean Absolute Error (MAE) to the naive baseline. Consistent error distribution in both training and testing datasets indicates no overfitting.
-///
+*/
 
 
 ### 4. [Model Building Using Both Numerical and Categorical Data](https://github.com/Roland13579/SC1015-DS-Project/blob/main/ModelBuilding-Numerical%26Categorical.ipynb)
