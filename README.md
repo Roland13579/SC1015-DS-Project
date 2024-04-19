@@ -12,10 +12,9 @@ Members:
 
 ---
 ### Description:
-This repository contains all the Jupyter Notebooks, datasets, images, video presentations, and the source materials/references we have used and created as part of the Mini Project for SC1015: Introduction to Data Science and AI. 
+This repository contains the Jupyter Notebooks, datasets, video presentation and the source materials used for our SC1015 (Introduction to Data Science and A.I.) Project.
 
-This README briefly highlights what we have accomplished in this project. If you want a more detailed explanation of things, please refer to the the Jupyter Notebooks in this repository. They contain more in-depth descriptions and smaller details which are not mentioned here in the README. For convenience, we have divided the notebooks into 5 parts which broadly relate to the 5 main sections of this project.
-
+This ReadMe only consists of a brief outline of our project.
 ---
 ### Table of Contents:
 1. [Problem Formulation](#1-Problem-Formlation)
@@ -28,7 +27,7 @@ This README briefly highlights what we have accomplished in this project. If you
 ---
 ### 1. [Problem Formulation](https://github.com/ardnep/ntu-sc1015-mini-project/blob/a1e85b5ec7fdeeaca5ddf6c4cdc55a9e95874124/Part_1_Data_Prep_Cleaning.ipynb)
 
-**Our Dataset:** [Stack Overflow Developer Survey 2020 on Kaggle](https://www.kaggle.com/aitzaz/stack-overflow-developer-survey-2020) \
+**Our Dataset:** [Sleep Health and Lifestyle Dataset]([https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset]) \
 **Our Question:** Does Being Unconventional Determine Success? 
 
 **Success:** Determined using Salary and Job Satisfaction \
