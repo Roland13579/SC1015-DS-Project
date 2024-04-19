@@ -41,7 +41,7 @@ Outline of Data Preparation & Cleaning and EDA:
 
  Please refer to the Jupyter Notebook for the full Exploratory Data Analysis of our dataset.
 
-### 3. [Dimensionality Reduction](https://github.com/ardnep/ntu-sc1015-mini-project/blob/a1e85b5ec7fdeeaca5ddf6c4cdc55a9e95874124/Part_3_Dimension_Reduction.ipynb)
+### 3. [Machine Learning for Numerical Data](https://github.com/Roland13579/SC1015-DS-Project/blob/main/Machine%20Learning%20for%20Numerical%20Datas.ipynb)
 Our DataFrame with `6` variables after encoding was converted to a DataFrame  with `94` which is a very high dimensional data. 
 
 This meant a few problems (curse of dimensionality):
