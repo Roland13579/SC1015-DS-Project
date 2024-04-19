@@ -55,10 +55,10 @@ Using MCA, the dimensions were reduced from `94` columns to just `42`!
 
 ### 4. [Model Building Using Both Numerical and Categorical Data](https://github.com/Roland13579/SC1015-DS-Project/blob/main/ModelBuilding-Numerical%26Categorical.ipynb)
 
-We start by separating the data into feature and target variables followed by data scaling to ensure contribution equality. We then do a 75-25 split on our data, separating them into train and test data. Now we'll start building our 9 models, which consist of Naive Bayes, Decision Trees, Random Forests, Extra Trees, KNN, Logistic Regression, AdaBoost, Gradient Boosting, and LightGBM.
+We start by separating the data into feature and target variables followed by data scaling to ensure contribution equality. Then, we do a 75-25 split on our data, separating them into train and test data. Next, we'll start building our 9 models for predicting "Quality of Sleep", which consists of Naive Bayes, Decision Tree, Random Forest, Extra Trees, K-Nearest-Neighbors(KNN), Logistic Regression, AdaBoost, Gradient Boosting, and LightGBM.
 
 Model building process:
-1. Use GridSearch to find the best metrics to use when building our model to maximize accuracy
+1. Use GridSearch to find the best metrics to use when building our model to maximize accuracy (When needed)
 2. Build the model using the metrics obtained from using GridSearch on our train data
 3. Test out the model on the test data to gain an accuracy score
 4. Make a confusion matrix to visualize the predictions made by the model
