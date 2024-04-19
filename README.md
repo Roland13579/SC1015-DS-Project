@@ -25,17 +25,13 @@ This ReadMe only consists of a brief outline of our project.
 6. [Data Driven Insights and Conclusion](#6-Data-Driven-Insights-and-Conclusion)
 7. [References](#7-References)
 ---
-### 1. [Problem Formulation](https://github.com/ardnep/ntu-sc1015-mini-project/blob/a1e85b5ec7fdeeaca5ddf6c4cdc55a9e95874124/Part_1_Data_Prep_Cleaning.ipynb)
+### 1. [Problem Formulation]([https://github.com/Roland13579/SC1015-DS-Project/blob/main/SC1015%20Data%20Prep%20%26%20Cleaning%20and%20Exploratory%20Data%20Analysis.ipynb])
 
 **Our Dataset:** [Sleep Health and Lifestyle Dataset]([https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset]) \
-**Our Question:** Does Being Unconventional Determine Success? 
+**Our Question:** How do different lifestyle predictor variables affect Sleep Quality? 
 
-**Success:** Determined using Salary and Job Satisfaction \
-**Unconventional Individuals:** Outliers/anomalies found after clustering individuals based on the  technologies they use such as Web frameworks, Programming languages, Operating systems, etc.
 
-**Rationale:** We believe that this dataset as well as the question we pose is very relevant to the SCSE community at NTU. Being students of SCSE, once we graduate, we might become developers ourselves. By learning what kinds of developers tend to be more successful, we might be able to understand what it takes to be successful in the software development world. 
-
-### 2. [Data Preparation and Cleaning](https://github.com/ardnep/ntu-sc1015-mini-project/blob/a1e85b5ec7fdeeaca5ddf6c4cdc55a9e95874124/Part_1_Data_Prep_Cleaning.ipynb)
+### 2. [Data Preparation and Cleaning](https://github.com/Roland13579/SC1015-DS-Project/blob/main/SC1015%20Data%20Prep%20%26%20Cleaning%20and%20Exploratory%20Data%20Analysis.ipynb)
 In this section of the project, we prepped and cleaned the dataset to help us analyze our data better and also to help us use our data for the purposes of machine learning in the later sections. 
 
 We performed the following:
