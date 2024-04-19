@@ -65,7 +65,7 @@ Model building process:
 
 After repeating this process for all the models, we're able to compare all the results produced by the models. These results show that Random Forests, KNN, Gradient Boosting, and LightGBM were the best-performing models for predicting "Quality of Sleep" with an accuracy of 98.94%.
 
-We could also print out the most important variables in predicting "Quality of Sleep", showing that "Sleep Duration"(Numerical), "Stress Level"(Categorical), and "Occupation"(Categorical) were the three most important variables in helping the models obtain a high accuracy score.
+By printing out the most important variables in predicting "Quality of Sleep", we can also conclude that "Sleep Duration"(Numerical), "Stress Level"(Categorical), and "Occupation"(Categorical) were the top 3 contributors to the accuracy of our models.
 
 Please refer to "[ModelBuilding-Numerical&Categorical](https://github.com/Roland13579/SC1015-DS-Project/blob/main/ModelBuilding-Numerical%26Categorical.ipynb)" for more details.
 
