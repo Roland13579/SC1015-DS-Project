@@ -61,7 +61,7 @@ We begin our analysis with Linear Regression, aiming to identify strong relation
 The second model, Random Forest Regression compares the actual quality of sleep to the predicted quality of sleep using multiple decision trees. Random Forest Regression demonstrates improved predictive accuracy over linear models, evidenced by its lower Mean Squared Error (MSE). Visualizing predictions through blue (training) and red (testing) dots, we observe alignment with the line of perfect prediction, indicating effectiveness in estimating actual sleep quality.
 
 Lastly, moving on to OLS Linear Regression, our aim is to create a model closely fitting the data with minimal error. Minimizing standard errors enhances coefficient estimate precision, ensuring reliable predictions. We address multicollinearity by reducing the condition number, achieved by removing variables with high p-values. Initially including all variables in the OLS model revealed a high condition number. After eliminating non-significant variables like Daily Steps, we achieved a model with lesser multicollinearity. Further refinements led to a well-fitted model with a healthy condition number and p-values. To assess the reliability of our OLS regression model, we compare the training Mean Absolute Error (MAE) to the naive baseline. Consistent error distribution in both training and testing datasets indicates no overfitting.
----
+
 Please refer to "[Machine Learning for Numerical Datas](https://github.com/Roland13579/SC1015-DS-Project/blob/main/Machine%20Learning%20for%20Numerical%20Datas.ipynb)" for more details.
 
 ### 4. [Model Building Using Both Numerical and Categorical Data](https://github.com/Roland13579/SC1015-DS-Project/blob/main/ModelBuilding-Numerical%26Categorical.ipynb)
