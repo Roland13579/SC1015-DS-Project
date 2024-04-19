@@ -7,7 +7,7 @@ Group :  7
 
 Members: 
 1. Jacob Loh Jun Cong ([@JacLoh](https://github.com/JacLoh))
-2. 
+2. Alden Budiman ([@Alden Budiman]https://github.com/aldenbudiman)
 3.
 
 ---
