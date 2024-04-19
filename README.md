@@ -67,7 +67,7 @@ After repeating this process for all the models, we're able to compare all the r
 
 We could also print out the most important variables in predicting "Quality of Sleep", showing that "Sleep Duration"(Numerical), "Stress Level"(Categorical), and "Occupation"(Categorical) were the three most important variables in helping the models obtain a high accuracy score.
 
-Please refer to the Jupyter Notebook file named "[ModelBuilding-Numerical&Categorical](https://github.com/Roland13579/SC1015-DS-Project/blob/main/ModelBuilding-Numerical%26Categorical.ipynb)" for the full Exploratory Data Analysis of our dataset.
+Please refer to "[ModelBuilding-Numerical&Categorical](https://github.com/Roland13579/SC1015-DS-Project/blob/main/ModelBuilding-Numerical%26Categorical.ipynb)" for more details.
 
 ### 5. Conclusion
 To summarise our findings, we have concluded that the numerical variables Sleep Duration and Heart Rate as well as Categorical variables Stress Level and Occupation are the most significant factors affecting quality of sleep. Throughout the process of deriving this conclusion, we have picked 3 best models - OLS Linear Regression, Random Forest and Gradient Boosting. OLS Linear Regression streamlines the numerical variables down to the most significant few by minimising standard errors and multicollinearity. Random Forest excels at finding optimal predictive values by aggregating the decisions of multiple decision trees, while Gradient Boosting effectively finds optimal predictive values by repeatedly improving the model's performance through the combination of weak learners. 
