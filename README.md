@@ -54,25 +54,19 @@ So, **Multiple Correspondence Analysis (MCA)** was used to reduce these dimensio
 Using MCA, the dimensions were reduced from `94` columns to just `42`!
 
 
-### 4. [Clustering](https://github.com/ardnep/ntu-sc1015-mini-project/blob/56310313487023eea95119db424cf0f41322d7fa/Part_4_Clustering.ipynb)
+### 4. [Model Building Using Both Numerical and Categorical Data](https://github.com/Roland13579/SC1015-DS-Project/blob/main/MachineLearning-Categorical.ipynb)
 
-With these `42` columns, we then performed clustering. We chose the **Hierarchical Density-Based Spatial Clustering of Applications with Noise (HDBCAN)**. 
+We start by separating the data into feature and target variables followed by data scaling to ensure contribution equality. We then do a 75-25 split on our data, separating them into train and test data. Now we'll start building our 9 models, which consist of Naive Bayes, Decision Trees, Random Forests, Extra Trees, KNN, Logistic Regression, AdaBoost, Gradient Boosting, and LightGBM.
 
-The reasons for this are:
-1. This is a density based clustering algorithm which means it does not need the specification of the number of clusters. Essentially, this algorithm will not *force* any point into a cluster. Instead, points which do not really belong to any cluster are labeled "noise". This is clearly useful for us since we are doing anomaly detection (outlier/noise detection).
-2. Because this is density based, the shape of our data does not matter which is useful since we are working with high dimensional data and it is not possible for us to visualize and understand what kind of shapes our data might have. 
-3. With a non-hierarchical DBSCAN, there are certain hyperparameters that are difficult to tune. HDBSCAN removes the need to tune some of these parameters. 
-4. Because HDBSCAN is a hierarchical clustering algorithm even if we have a high dimensional data, we can use dendrograms to somewhat visualize the clusters and make inferences.
+Model building process:
+1. Use GridSearch to find the best metrics to use when building our model to maximize accuracy
+2. Build the model using the metrics obtained from using GridSearch on our train data
+3. Test out the model on the test data to gain an accuracy score
+4. Make a confusion matrix to visualize the predictions made by the model
 
-More details on HDBSCAN and its parameters are presented in the Jupyter Notebook on Clustering.
+After repeating this process for all the models, we're able to compare all the results produced by the models. These results show that Random Forests, KNN, Gradient Boosting, and LightGBM were the best-performing models for predicting "Quality of Sleep" with an accuracy of 98.94%.
 
-In this section, we performed the following:
-1. Clustering with Random Parameters
-2. Hyperparameter Tuning with GridSearchCV using DBCV Score
-3. Readjusting Parameters (GridSearchCV does not work well in this case)
-4. Clustering with New Parameters
-
-Our final clustering resulted in a total of `3` clusters and `6206` outliers (out of `19362` total points).
+We could also print out the most important variables in predicting "Quality of Sleep", showing that "Sleep Duration"(Numerical), "Stress Level"(Categorical), and "Occupation"(Categorical) were the three most important variables in helping the models obtain a high accuracy score.
 
 ### 5. [Data Driven Insights and Conclusion](https://github.com/ardnep/ntu-sc1015-mini-project/blob/e79194b4337bb109729f915ef474e608031fd4f8/Part_5_Data_Driven_Insights.ipynb)
 Here, we re-combined our variables related to success and the clustered variables related to conventionality to see if there are any differences between outliers and non-outliers. We performed a comparative Exploratory Data Analysis on the outliers vs. non-outliers to see if we can infer anything from the similarities and differences. 
