@@ -54,7 +54,7 @@ So, **Multiple Correspondence Analysis (MCA)** was used to reduce these dimensio
 Using MCA, the dimensions were reduced from `94` columns to just `42`!
 
 
-### 4. [Model Building Using Both Numerical and Categorical Data](https://github.com/Roland13579/SC1015-DS-Project/blob/main/MachineLearning-Categorical.ipynb)
+### 4. [Model Building Using Both Numerical and Categorical Data](https://github.com/Roland13579/SC1015-DS-Project/blob/main/ModelBuilding-Numerical%26Categorical.ipynb)
 
 We start by separating the data into feature and target variables followed by data scaling to ensure contribution equality. We then do a 75-25 split on our data, separating them into train and test data. Now we'll start building our 9 models, which consist of Naive Bayes, Decision Trees, Random Forests, Extra Trees, KNN, Logistic Regression, AdaBoost, Gradient Boosting, and LightGBM.
 
@@ -68,14 +68,12 @@ After repeating this process for all the models, we're able to compare all the r
 
 We could also print out the most important variables in predicting "Quality of Sleep", showing that "Sleep Duration"(Numerical), "Stress Level"(Categorical), and "Occupation"(Categorical) were the three most important variables in helping the models obtain a high accuracy score.
 
-### 5. [Data Driven Insights and Conclusion](https://github.com/ardnep/ntu-sc1015-mini-project/blob/e79194b4337bb109729f915ef474e608031fd4f8/Part_5_Data_Driven_Insights.ipynb)
-Here, we re-combined our variables related to success and the clustered variables related to conventionality to see if there are any differences between outliers and non-outliers. We performed a comparative Exploratory Data Analysis on the outliers vs. non-outliers to see if we can infer anything from the similarities and differences. 
+Please refer to the Jupyter Notebook file named "[ModelBuilding-Numerical&Categorical](https://github.com/Roland13579/SC1015-DS-Project/blob/main/ModelBuilding-Numerical%26Categorical.ipynb)" for the full Exploratory Data Analysis of our dataset.
 
-In this section, we also looked at the characteristics of the individuals in our `3` clusters using the variables related to conventionality. The findings have been presented in the Jupyter Notebook on Data Driven Insights. 
+### 5. Conclusion
+To summarise our findings, we have concluded that the numerical variables Sleep Duration and Heart Rate as well as Categorical variables Stress Level and Occupation are the most significant factors affecting quality of sleep. Throughout the process of deriving this conclusion, we have picked 3 best models - OLS Linear Regression, Random Forest and Gradient Boosting. OLS Linear Regression streamlines the numerical variables down to the most significant few by minimising standard errors and multicollinearity. Random Forest excels at finding optimal predictive values by aggregating the decisions of multiple decision trees, while Gradient Boosting effectively finds optimal predictive values by repeatedly improving the model's performance through the combination of weak learners. 
 
-Most notably, however, we found that there were no difference in the distribution of the Salary or the Job Satisfaction among Outliers and Non-outliers (Conventional individuals and non-conventional individuals). So, we concluded that unconventionality might NOT be an indicator of success. 
 
-### 6. References
 
 
 
