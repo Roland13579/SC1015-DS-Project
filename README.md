@@ -18,9 +18,9 @@ This ReadMe only consists of a brief outline of our project.
 ### Table of Contents:
 1. [Problem Formulation](#1-Problem-Formlation)
 2. [Data Preparation & Cleaning and Exploratory Data Analysis](#2-Data-Preparation-and-Cleaning)
-3. [Machine Learning for Numerical Data](#4-Machine-Learning-for-Numerical-Data)
-4. [Model Building Using Both Numerical and Categorical Data](#5-Model-Building-Using-Both-Numerical-and-Categorical-Data)
-5. [Conclusion](#6-Conclusion)
+3. [Machine Learning for Numerical Data](#3-Machine-Learning-for-Numerical-Data)
+4. [Model Building Using Both Numerical and Categorical Data](#4-Model-Building-Using-Both-Numerical-and-Categorical-Data)
+5. [Conclusion](#5-Conclusion)
 ---
 ### 1. [Problem Formulation](https://github.com/Roland13579/SC1015-DS-Project/blob/main/SC1015%20Data%20Prep%20%26%20Cleaning%20and%20Exploratory%20Data%20Analysis.ipynb)
 
