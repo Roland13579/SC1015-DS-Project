@@ -18,8 +18,7 @@ This ReadMe only consists of a brief outline of our project.
 ---
 ### Table of Contents:
 1. [Problem Formulation](#1-Problem-Formlation)
-2. [Data Preparation and Cleaning](#2-Data-Preparation-and-Cleaning)
-3. [Exploratory Data Analysis](#3-Exploratory-Data-Analysis)
+2. [Data Preparation & Cleaning and Exploratory Data Analysis](#2-Data-Preparation-and-Cleaning)
 4. [Dimensionality Reduction](#4-Dimensionality-Reduction)
 5. [Clustering](#5-Clustering)
 6. [Data Driven Insights and Conclusion](#6-Data-Driven-Insights-and-Conclusion)
@@ -40,7 +39,6 @@ We performed the following:
 3. **Splitting Dataset in Two:** The `8` variables were then split in 2 DataFrames. One with `6` variables relating to conventionality and the other with `2` relating to success. 
 4. **Encoding Categorical Variables:** The categorical variables in both the DataFrames were encoded appropriately. 
 
-### 3. [Exploratory Data Analysis](https://github.com/ardnep/ntu-sc1015-mini-project/blob/e79194b4337bb109729f915ef474e608031fd4f8/Part_2_EDA.ipynb)
 Then, we explored each of our two DataFrames further using Exploratory Data Analysis to answer questions like are there any patterns we are noticing? What do our success variables look like? What about the conventionality variables? Are there any underlying relationships between them? Can we make any inferences for our question at this stage? 
 
 To achieve this we did the following:
