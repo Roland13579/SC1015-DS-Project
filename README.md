@@ -41,7 +41,7 @@ Outline of Data Preparation & Cleaning and EDA:
  Please refer to the Jupyter Notebook for the full Exploratory Data Analysis of our dataset.
 
 ### 3. [Machine Learning for Numerical Data](https://github.com/Roland13579/SC1015-DS-Project/blob/main/Machine%20Learning%20for%20Numerical%20Datas.ipynb)
-/*
+
 Our DataFrame with `6` variables after encoding was converted to a DataFrame  with `94` which is a very high dimensional data. 
 
 This meant a few problems (curse of dimensionality):
@@ -52,7 +52,7 @@ This meant a few problems (curse of dimensionality):
 So, **Multiple Correspondence Analysis (MCA)** was used to reduce these dimensions. The reason we chose MCA was that the general convention with dimensionality reduction is Principal Component Analysis (PCA), however it does not work well with categorical data which is what we have. MCA works well with multiple columns of categorical data. 
 
 Using MCA, the dimensions were reduced from `94` columns to just `42`!
-*/
+
 /*
 For the machine learning process on numerical data. We will conduct the analysis across 3 different models.
 
