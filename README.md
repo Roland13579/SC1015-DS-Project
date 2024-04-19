@@ -3,7 +3,7 @@
 School of Computer Science and Engineering \
 Nanyang Technological University \
 Lab: FCSB \
-Group :  
+Group :  7
 
 Members: 
 1. Jacob Loh Jun Cong ([@JacLoh](https://github.com/JacLoh))
