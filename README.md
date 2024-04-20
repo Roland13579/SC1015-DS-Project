@@ -42,18 +42,6 @@ Outline of Data Preparation & Cleaning and EDA:
 
 ### 3. [Machine Learning for Numerical Data](https://github.com/Roland13579/SC1015-DS-Project/blob/main/Machine%20Learning%20for%20Numerical%20Datas.ipynb)
 
-Our DataFrame with `6` variables after encoding was converted to a DataFrame  with `94` which is a very high dimensional data. 
-
-This meant a few problems (curse of dimensionality):
-1. It would probably not result in nicely formulated clusters.
-2. High dimensional data is difficult to work with because of space and time increases when running algorithms on them.
-3. High dimensional data is difficult to visualize.
-
-So, **Multiple Correspondence Analysis (MCA)** was used to reduce these dimensions. The reason we chose MCA was that the general convention with dimensionality reduction is Principal Component Analysis (PCA), however it does not work well with categorical data which is what we have. MCA works well with multiple columns of categorical data. 
-
-Using MCA, the dimensions were reduced from `94` columns to just `42`!
-
----
 For the machine learning process on numerical data. We will conduct the analysis across 3 different models.
 
 We begin our analysis with Linear Regression, aiming to identify strong relationships between predictor variables and sleep quality. Stronger relationships are characterized by higher explained variance (R²) and lower Mean Absolute Error (MAE). Our analysis on "Daily Steps," "Sleep Duration," "Age," and "Heart Rate" reveals sleep duration as the strongest indicator, followed by heart rate, age, and daily steps.
