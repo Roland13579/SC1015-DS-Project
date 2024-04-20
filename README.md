@@ -22,13 +22,13 @@ This ReadMe only consists of a brief outline of our project.
 4. [Model Building Using Both Numerical and Categorical Data](#4-Model-Building-Using-Both-Numerical-and-Categorical-Data)
 5. [Conclusion](#5-Conclusion)
 ---
-### 1. [Problem Formulation](https://github.com/Roland13579/SC1015-DS-Project/blob/main/SC1015%20Data%20Prep%20%26%20Cleaning%20and%20Exploratory%20Data%20Analysis.ipynb)
+### 1. [Problem Formulation](https://github.com/Roland13579/SC1015-DS-Project/blob/main/SC1015_Data_Prep_%26_Cleaning_and_Exploratory_Data_Analysis%20(1).ipynb)
 
 **Our Dataset:** [Sleep Health and Lifestyle Dataset](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset) \
 **Our Question:** How do different lifestyle predictor variables affect Sleep Quality? 
 
 
-### 2. [Data Preparation & Cleaning and Exploratory Data Analysis](https://github.com/Roland13579/SC1015-DS-Project/blob/main/SC1015%20Data%20Prep%20%26%20Cleaning%20and%20Exploratory%20Data%20Analysis.ipynb)
+### 2. [Data Preparation & Cleaning and Exploratory Data Analysis](https://github.com/Roland13579/SC1015-DS-Project/blob/main/SC1015_Data_Prep_%26_Cleaning_and_Exploratory_Data_Analysis%20(1).ipynb)
 Firstly, We prepared and cleaned the data to ensure an accurate model for machine learning later on. Then, we used Exploratory Data Analysis to identify patterns and relationships and the respectively deductions.  
 
 Outline of Data Preparation & Cleaning and EDA:
