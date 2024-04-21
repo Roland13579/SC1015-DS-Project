@@ -24,12 +24,13 @@ This ReadMe only consists of a brief outline of our project.
 ---
 ### 1. [Problem Formulation](https://github.com/Roland13579/SC1015-DS-Project/blob/main/SC1015_Data_Prep_%26_Cleaning_and_Exploratory_Data_Analysis%20(1).ipynb)
 
+Sleep is an essential function that serves a variety of important physical and psychological functions but up to two-thirds of adults occasionally experience insomnia symptoms, affecting daily functions. Hence, what modifications should we make to improve our sleep quality to allow us to have higher productivity and quality of life?
 **Our Dataset:** [Sleep Health and Lifestyle Dataset](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset) \
 **Our Question:** How do different lifestyle predictor variables affect Sleep Quality? 
 
 
 ### 2. [Data Preparation & Cleaning and Exploratory Data Analysis](https://github.com/Roland13579/SC1015-DS-Project/blob/main/SC1015_Data_Prep_%26_Cleaning_and_Exploratory_Data_Analysis%20(1).ipynb)
-Firstly, We prepared and cleaned the data to ensure an accurate model for machine learning later on. Then, we used Exploratory Data Analysis to identify patterns and relationships and the respectively deductions.  
+Firstly, We prepared and cleaned the data to ensure an accurate model for machine learning later on. Then, we used Exploratory Data Analysis to identify patterns and relationships to arrive at the respectively deductions.  
 
 Outline of Data Preparation & Cleaning and EDA:
 1. **Merging categories**: Categories that had the same meaning were merged. Categories that are too poorly represented in the dataset to allow significant analysis were removed.
