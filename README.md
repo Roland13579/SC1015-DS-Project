@@ -12,7 +12,7 @@ Members:
 
 ---
 ### Description:
-This repository contains the Jupyter Notebooks, datasets, video presentation and the source materials used for our SC1015 (Introduction to Data Science and A.I.) Project. \
+This repository contains the Jupyter Notebooks, datasets and the source materials used for our SC1015 (Introduction to Data Science and A.I.) Project. \
 This ReadMe only consists of a brief outline of our project.
 ---
 ### Table of Contents:
